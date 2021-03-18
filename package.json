@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "npx live-server ./ --port=8888"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/kspf/customAxios/issues"
   },
-  "homepage": "https://github.com/kspf/customAxios#readme"
+  "homepage": "https://github.com/kspf/customAxios#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
